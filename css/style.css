@@ -1,3 +1,9 @@
+/* component imports */
+@import url('./components/banner.css');
+@import url('./components/button.css');
+@import url('./components/cards.css');
+@import url('./components/footer.css');
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
 
@@ -18,5 +24,15 @@ a {
   text-decoration: none;
 }
 
-/* Custom design below! */
+/* my Additions */
+.container {
+  margin: 50px auto;
+  width: 900px;
+  text-align: center;
+}
 
+@media (max-width: 900px) {
+  .container {
+      width: 500px;
+  }
+}

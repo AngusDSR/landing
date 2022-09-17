@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background-color: #2C2B2B;
+  height: 200px;
+  color: #6B6C6C;
+}
+
+.links-social {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.links-social > a {
+  color: #1EDD88;
+  margin: 0 8px;
+}
+
+.links-social i {
+  font-size: 30px;
+}
